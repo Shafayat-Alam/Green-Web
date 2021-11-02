@@ -1,0 +1,26 @@
+.shade{
+    /* background-color: hsla(1, 80%, 92%, 0.63); */
+    /* background-color: hsla(0, 100%, 47%, 0.38); */
+    /* background-color: hsla(275, 20%, 97%, 0.18); */
+    background-color: hsl(3, 32%, 33%);
+    height: 100%;
+    width: 100%;
+
+    transform-origin: top;
+
+    animation: shade 1s 1s forwards;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+
+@keyframes shade {
+    100%{
+        transform: scaleY(0);
+        /* padding-bottom: 100%; */
+    }
+}
+
