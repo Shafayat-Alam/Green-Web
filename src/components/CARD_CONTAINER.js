@@ -48,6 +48,8 @@ export default function CARD_CONTAINER() {
             description: description,
             descriptionEmpty: descriptionEmpty
         });
+
+        window.location.reload();
     };
 
     const updateTitle = async ( id, title, titleEmpty) => {
